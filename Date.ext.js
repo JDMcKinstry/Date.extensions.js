@@ -10,7 +10,7 @@
 			'addDays': function(v) { this.setDate(this.getDate() + parseFloat(v)); return this; },
 			'addHours': function(v) { this.setHours(this.getHours() + parseFloat(v)); return this; },
 			'addMinutes': function(v) { this.setMinutes(this.getMinutes() + parseFloat(v)); return this; },
-			'setSeconds': function(v) { this.setSeconds(this.getSeconds() + parseFloat(v)); return this; },
+			'addSeconds': function(v) { this.setSeconds(this.getSeconds() + parseFloat(v)); return this; },
 		};
 	for (var k in methods) {
 		var v = methods[k];
