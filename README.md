@@ -4,10 +4,10 @@ Simple extensions to the Date object for adding time (use - to subtract times)
 Examples
 ---
 
-	//	.getDayString(shortForm)
+	//	.getDayName(shortForm)
 	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
-	d.getDayString();				// Friday
-	d.getDayString(true);			// Fri
+	d.getDayName();				// Friday
+	d.getDayName(true);			// Fri
 	
 	//	.getWeek()
 	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
