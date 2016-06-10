@@ -9,6 +9,11 @@ Examples
 	d.getDayName();					// Friday
 	d.getDayName(true);				// Fri
 	
+	//	.getMonthName(shortForm)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.getMonthName();				// February
+	d.getMonthName(true);			// Feb
+	
 	//	.getWeek()
 	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
 	d.getWeek();					// 9
