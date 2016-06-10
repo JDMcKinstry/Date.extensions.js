@@ -25,7 +25,7 @@
 			},
 			'getMonthName': function(shortForm) {
 				var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
-				return shortForm ? days[this.getMonth()].substr(0,3) : days[this.getMonth()];
+				return shortForm ? months[this.getMonth()].substr(0,3) : months[this.getMonth()];
 			}
 		};
 	for (var k in methods) {
