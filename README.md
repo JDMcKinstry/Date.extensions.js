@@ -4,33 +4,50 @@ Simple extensions to the Date object for adding time (use - to subtract times)
 Examples
 ---
 
-	//	All examples using something like:
-	var d = new Date();	//	Fri Jun 10 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
+	//	.addYears([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addYears(1);	//	Sun Mar 01 1981 13:54:55 GMT-0500 (Eastern Standard Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addYears(-1);	//	Thu Mar 01 1979 13:54:55 GMT-0500 (Eastern Standard Time)
+
 	
-	//	addYears
-	d.addYears(1);		//	Sat Jun 10 2017 16:27:09 GMT-0400 (Eastern Daylight Time)
-	d.addYears(-1);		//	Wed Jun 10 2015 16:27:09 GMT-0400 (Eastern Daylight Time)
+	//	.addMonths([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addMonths(1);	//	Sat Mar 29 1980 13:54:55 GMT-0400 (Eastern Daylight Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addMonths(-1);	//	Tue Jan 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+
 	
-	//	addMonths
-	d.addMonths(1);		//	Sun Jul 10 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
-	d.addMonths(-1);	//	Tue May 10 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
+	//	.addWeeks([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addWeeks(1);	//	Fri Mar 07 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addWeeks(-1);	//	Fri Feb 22 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+
 	
-	//	addWeeks
-	d.addWeeks(1);		//	Fri Jun 17 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
-	d.addWeeks(-1);		//	Fri Jun 03 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
+	//	.addDays([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addDays(1);	//	Sat Mar 01 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addDays(-1);	//	Thu Feb 28 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+
 	
-	//	addDays
-	d.addDays(1);		//	Sat Jun 11 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
-	d.addDays(-1);		//	Thu Jun 09 2016 16:27:09 GMT-0400 (Eastern Daylight Time)
+	//	.addHours([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addHours(1);	//	Fri Feb 29 1980 14:54:55 GMT-0500 (Eastern Standard Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addHours(-1);	//	Fri Feb 29 1980 12:54:55 GMT-0500 (Eastern Standard Time)
+
 	
-	//	addHours
-	d.addHours(1);		//	Fri Jun 10 2016 17:27:09 GMT-0400 (Eastern Daylight Time)
-	d.addHours(-1);		//	Fri Jun 10 2016 15:27:09 GMT-0400 (Eastern Daylight Time)
+	//	.addMinutes([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addMinutes(1);	//	Fri Feb 29 1980 13:55:55 GMT-0500 (Eastern Standard Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addMinutes(-1);	//	Fri Feb 29 1980 13:53:55 GMT-0500 (Eastern Standard Time)
+
 	
-	//	addMinutes
-	d.addMinutes(1);	//	Fri Jun 10 2016 16:28:09 GMT-0400 (Eastern Daylight Time)
-	d.addMinutes(-1);	//	Fri Jun 10 2016 16:26:09 GMT-0400 (Eastern Daylight Time)
-	
-	//	addSeconds
-	d.addSeconds(1);	//	Fri Jun 10 2016 16:27:10 GMT-0400 (Eastern Daylight Time)
-	d.addSeconds(-1);	//	Fri Jun 10 2016 16:27:08 GMT-0400 (Eastern Daylight Time)
+	//	.addSeconds([-,+]n)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addSeconds(1);	//	Fri Feb 29 1980 13:54:56 GMT-0500 (Eastern Standard Time)
+	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
+	d.addSeconds(-1);	//	Fri Feb 29 1980 13:54:54 GMT-0500 (Eastern Standard Time)
