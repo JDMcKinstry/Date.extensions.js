@@ -22,6 +22,10 @@
 			'getDayName': function(shortForm) {
 				var days = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday" ];
 				return shortForm ? days[this.getDay()].substr(0,3) : days[this.getDay()];
+			},
+			'getMonthName': function(shortForm) {
+				var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+				return shortForm ? days[this.getMonth()].substr(0,3) : days[this.getMonth()];
 			}
 		};
 	for (var k in methods) {
