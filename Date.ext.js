@@ -17,7 +17,7 @@
 			? Object.defineProperty(Date.prototype, k, { value: v }) : Date.prototype[k] = v;
 	}
 })();
-;(function() {	//	Date.getDayName
+;(function() {	//	Date.get[Day|Month]Name
 	var methods = {
 			'getDayName': function(shortForm) {
 				var days = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday" ];
