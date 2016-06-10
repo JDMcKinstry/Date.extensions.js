@@ -19,9 +19,9 @@
 })();
 ;(function() {	//	Date.getDayString
 	var methods = {
-			'getDayString': function(v) {
+			'getDayString': function(shortForm) {
 				var days = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday" ];
-				return days[this.getDay()];
+				return shortForm ? days[this.getDay()].substr(0,3) : days[this.getDay()];
 			}
 		};
 	for (var k in methods) {
@@ -32,7 +32,7 @@
 })();
 ;(function() {	//	Date.getWeek
 	var methods = {
-			'getWeek': function(v) {
+			'getWeek': function() {
 				var a = new Date(this.getFullYear(), 0, 1);
 				return Math.ceil(((this - a) / 864E5 + a.getDay() + 1) / 7)
 			}
