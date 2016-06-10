@@ -17,9 +17,9 @@
 			? Object.defineProperty(Date.prototype, k, { value: v }) : Date.prototype[k] = v;
 	}
 })();
-;(function() {	//	Date.getDayString
+;(function() {	//	Date.getDayName
 	var methods = {
-			'getDayString': function(shortForm) {
+			'getDayName': function(shortForm) {
 				var days = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday" ];
 				return shortForm ? days[this.getDay()].substr(0,3) : days[this.getDay()];
 			}
