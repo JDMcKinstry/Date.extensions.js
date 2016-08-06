@@ -67,7 +67,7 @@ Examples
 	d.addSeconds(-1);				//	Fri Feb 29 1980 13:54:54 GMT-0500 (Eastern Standard Time)
 
 
-### For more info on `format`
-Please see [this repo here](https://github.com/JDMcKinstry/JavaScriptDateFormat)
+### Date.format()
+This method is built in from another method I made. For more info on `format` please see [this repo here](https://github.com/JDMcKinstry/JavaScriptDateFormat)
 
 	
