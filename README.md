@@ -1,7 +1,7 @@
 # Date.extensions.js
 Simple extensions to the Date object for adding time (use - to subtract times)
 
-Quick Link - [min](https://cdn.rawgit.com/JDMcKinstry/Date.extensions.js/master/date.extensions.min.js)
+Quick Link - [min](https://cdn.rawgit.com/JDMcKinstry/Date.extensions.js/master/date.extensions.min.js) 7KB
 
 Examples
 ---
