@@ -52,6 +52,9 @@ Examples
 	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
 	d.addHours(-1);					//	Fri Feb 29 1980 12:54:55 GMT-0500 (Eastern Standard Time)
 
+### For more info on `format`
+Please see [this repo here](https://github.com/JDMcKinstry/JavaScriptDateFormat)
+
 	
 	//	.addMinutes([-,+]n)
 	var d = new Date(320698495959);	//	Fri Feb 29 1980 13:54:55 GMT-0500 (Eastern Standard Time)
